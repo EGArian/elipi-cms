@@ -75,6 +75,7 @@ if (! isset ( $_SESSION ['validate'] )) {
             }
           
         }
+        Redirect(ADDRESS . '/e-admin/post.php');
     }
     ?>
 <script src="ckeditor/ckeditor.js"></script>
